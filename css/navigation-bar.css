@@ -1,13 +1,41 @@
+
+.navigation-bar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 .navigation-bar__ul{
     display: flex;
     justify-content: space-between;
-    margin: 0px 10px;
-    padding: 10px 30px;
-    border-radius: 10px;
+    padding: 15px 30px;
+    box-sizing: border-box;
     background-color:rgb(204, 182, 156,0.5);
 }
 
 .navigation-bar__a{
     text-decoration: none;
     color: rgb(71, 64, 56,1);
+    position: relative;
+}
+
+.navigation-bar__notification{
+    background-color: rgb(245, 63, 31);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: -8px;
+
+}
+
+.navigation-bar__notification-small{
+    width: 5px;
+    height: 5px;
 }

@@ -1,12 +1,14 @@
 
 .status-bar{
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 7px 3px;
 }
 
 .status-bar__column{
-    width: 33.3%;
+    width: 33%;
 }
 .status-bar__column:first-child span{
     margin-left: 10px;
@@ -21,6 +23,8 @@
 .status-bar__column:last-child{
     display: flex;
     justify-content:flex-end;
+    padding-right: 15px;
+    box-sizing: border-box;
     align-items: center;
 }
 
