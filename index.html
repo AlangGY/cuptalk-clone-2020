@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to CupTalk</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!-- WIFI ICON -->
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <!-- landscape ICON -->
+        <div class="status-bar__column">
+            <span>11%</span>
+            <!-- battery ICON -->
+            <i class="fas fa-battery-half fa-lg"></i>
+            <!-- lightning ICON -->
+            <i class="fas fa-bolt fa-xs "></i>
+        </div>
+    </div>
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to CupTalk</h1>
+        <p class="welcome-header__text">If you have a CupCup Account, log in with your email or phone number           
+        </p>
+    </header>
+
+    <form id="login-form">
+        <input class="input-text" type="text" placeholder="Email or phone number" />
+        <input type="password" placeholder="Password" />
+        <input type="submit" value="Log In">
+        <input type="button" value="Sign Up">
+        <a href="#">Find CupCup Account or Password</a>
+    </form>
+
+    <script src="https://kit.fontawesome.com/369782a9cb.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
