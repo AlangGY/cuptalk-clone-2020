@@ -13,22 +13,11 @@ body {
 
 .background-Image{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
 
 }
 .background-Image img{
-    display: none;
-}
-
-.background-Image img:first-child{
-    display: none;
-}
-
-.background-Image img:nth-child(2){
-    display: none;
-}
-
-.background-Image img:nth-child(3){
-    display: none;
+    display: flex;
+    justify-content: center;
 }

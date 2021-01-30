@@ -30,25 +30,24 @@
     </div>
     <header class="welcome-header">
         <h1 class="welcome-header__title">Welcome to CupTalk</h1>
-        <p class="welcome-header__text">If you have a CupCup Account, log in with your email or phone number           
+        <p class="welcome-header__text">If you have a CupCup Account, log in with your email or phone number
         </p>
     </header>
+    <div class="background-Image js-background-Image">
+        <img src="css/images/cupsleep-anim.gif">
+    </div>
 
-    <form id="login-form">
-        <input type="text" placeholder="Email or phone number" />
-        <input type="password" placeholder="Password" />
+    <form action="friends.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="Email or phone number" required />
+        <input name="password" type="password" placeholder="Password" required />
         <input class="login-form__btn login-form__btn-anim" type="submit" value="Log In">
         <input class="login-form__btn login-form__btn-anim" type="button" value="Sign Up">
         <a href="#">Find CupCup Account or Password</a>
     </form>
-    <!-- <div class="background-Image">
-        <img src="css/images/cupsleep1.jpg">
-        <img src="css/images/cupsleep2.jpg">
-        <img src="css/images/cupsleep3.jpg">
-        <img src="css/images/cupsleep4.jpg">
-    </div> -->
+
 
     <script src="https://kit.fontawesome.com/369782a9cb.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

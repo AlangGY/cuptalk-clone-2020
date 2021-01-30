@@ -10,6 +10,7 @@
     padding: 10px 50px;
     border: none;
     background-color: rgb(0,0,0,0);
+    color: var(--input-PlaceholderColor-Clicked);
     margin-bottom: 10px;
     font-size: 20px;
     text-align: center;
@@ -20,6 +21,8 @@
 
 #login-form input:not([type="submit"],[type="button"]){
     border-bottom: 2px solid var(--input-PlaceholderColor);
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #login-form input:focus{
@@ -28,6 +31,7 @@
 }
 #login-form input::placeholder{
     color:var(--input-PlaceholderColor);
+    font-family: 'Alegreya Sans SC', sans-serif;
     transition: color 0.2s ease-in-out;
 }
 #login-form input:focus::placeholder{
