@@ -5,6 +5,7 @@
 @import "welcome-header.css";
 @import "variables.css";
 @import "login-form.css";
+@import "navigation-bar.css";
 body {
     background-color: var(--backgroundColor);
     font-family: 'Alegreya Sans SC', sans-serif;
