@@ -50,6 +50,8 @@ table {
 input:focus{
 	outline: none;
 }
-input{
+input {
 	-webkit-appearance: none;
-}
+	-moz-appearance: none;
+	appearance: none;
+	}
