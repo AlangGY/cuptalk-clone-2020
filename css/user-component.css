@@ -49,14 +49,3 @@
     margin-top: 10px;
     color: rgb(0,0,0,0.6);
 }
-
-.friends-screen__channel{
-    margin-top: 25px;
-    border-top: 1px solid var(--lineColor);
-    padding-top: 10px;
-}
-
-.friends__channel-header{
-    display: flex;
-    justify-content: space-between;
-}

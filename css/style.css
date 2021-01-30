@@ -11,10 +11,13 @@
 @import "user-component.css";
 body {
     background-color: var(--backgroundColor);
-    /* font-family: 'Alegreya Sans SC', sans-serif; */
     font-family: var(--font-en);
 
     height: 100vh;
+}
+
+.main-screen{
+    padding: 0 var(--horizontal-space);
 }
 
 .background-Image{
