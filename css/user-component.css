@@ -1,0 +1,34 @@
+
+.user-component{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.user-component__column:first-child{
+    display: flex;
+    align-items: center;
+}
+
+.user-component__profile{
+    width: 80px;
+    height: 80px;
+    border-radius: 30%;
+    border: 0.5px solid #ccb373;
+    margin-right: 20px;
+    background-color: #eed083;
+}
+
+.user-component__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.user-component__subtitle{
+    font-size: 16px;
+    font-weight: 100;
+    margin-top: 10px;
+    color: rgb(0,0,0,0.6);
+}
