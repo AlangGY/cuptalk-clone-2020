@@ -1,0 +1,62 @@
+#login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-form input{
+    padding: 10px 50px;
+    border: none;
+    background-color: rgb(0,0,0,0);
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    caret-color: rgb(0,0,0,0);
+    transition: border-color 0.2s ease-in-out;
+}
+
+#login-form input:not([type="submit"],[type="button"]){
+    border-bottom: 2px solid var(--input-PlaceholderColor);
+}
+
+#login-form input:focus{
+    border-color:var(--input-PlaceholderColor-Clicked);
+    
+}
+#login-form input::placeholder{
+    color:var(--input-PlaceholderColor);
+    transition: color 0.2s ease-in-out;
+}
+#login-form input:focus::placeholder{
+    color:var(--input-PlaceholderColor-Clicked);
+}
+
+#login-form .login-form__btn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 15px;
+    transition: all 0.1s ease-in-out;
+    -webkit-box-shadow: 3px 3px 1px -1px rgba(0,0,0,0.53); 
+    box-shadow: 3px 3px 1px -1px rgba(0,0,0,0.53);
+}
+
+#login-form .login-form__btn-anim:hover{
+    width: 180px;
+    border-radius: 50px;
+}
+
+#login-form a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+}
