@@ -1,8 +1,9 @@
 
 .user-component{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    margin-top: 10px;
     font-size: 30px;
     font-weight: 800;
 }
@@ -12,23 +13,50 @@
     align-items: center;
 }
 
+.user-component__column:last-child{
+    font-size: 20px;
+    color: rgb(0,0,0,0.7);
+}
 .user-component__profile{
-    width: 80px;
-    height: 80px;
     border-radius: 30%;
     border: 0.5px solid #ccb373;
     margin-right: 20px;
     background-color: #eed083;
 }
 
+.user-component__profile-xl{
+    width: 80px;
+    height: 80px;
+}
+
+.user-component__profile-sm{
+    width: 60px;
+    height: 60px;
+}
 .user-component__text{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.user-component__title--not-bold{
+    font-weight: 600;
+    font-size: 25px;
 }
 .user-component__subtitle{
     font-size: 16px;
     font-weight: 100;
     margin-top: 10px;
     color: rgb(0,0,0,0.6);
+}
+
+.friends-screen__channel{
+    margin-top: 25px;
+    border-top: 1px solid var(--lineColor);
+    padding-top: 10px;
+}
+
+.friends__channel-header{
+    display: flex;
+    justify-content: space-between;
 }
