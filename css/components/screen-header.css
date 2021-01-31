@@ -30,3 +30,19 @@
     color: rgb(71, 64, 56,1);
     position: relative;
 }
+
+@keyframes rotateCog{
+    0%{
+        transform: none;
+    }
+
+    50%{
+        transform: scale(1.2) rotateZ(180deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icons .fa-cog:hover{
+    animation: rotateCog 3s ease-in-out infinite;
+}
