@@ -1,10 +1,10 @@
-.find-icons{
+.icon-row{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.find-icons__icon{
+.icon-row__icon{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +12,8 @@
 
 }
 
-.find-icons__icon span{
+.icon-row__icon span{
     margin-top: 10px;
 }
+
 

@@ -19,11 +19,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 .user-component__profile{
     border-radius: 30%;
     border: 0.5px solid #ccb373;
-    margin-right: 20px;
     background-color: #eed083;
 }
 
@@ -37,6 +37,7 @@
     height: 60px;
 }
 .user-component__text{
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,6 +52,9 @@
     font-weight: 100;
     margin-top: 10px;
     color: rgb(0,0,0,0.6);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .user-component__time{

@@ -1,0 +1,22 @@
+.more-suggestions{
+    border-top: 1px solid var(--lineColor);
+    margin: 15px 0px;
+}
+
+.more-suggestions__title{
+    margin: 20px 0px;
+    font-size: 20px;
+    display: flex;
+}
+
+.more-suggestions__icons{
+    display: flex;
+}
+
+.more-suggestions__icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+}
