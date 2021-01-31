@@ -2,10 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 31px;
     padding: var(--horizontal-space);
-    background-color:rgb(204, 182, 156,0.5);
+    background-color:var(--barColor);
     border-bottom:1px solid var(--border-bottomColor);
     border-top:1px solid var(--border-topColor);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
 }
 
 .screen-header__title{

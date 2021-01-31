@@ -1,5 +1,6 @@
 :root{
     --backgroundColor:#feca36;
+    --barColor:rgb(230, 196, 87);
     --input-PlaceholderColor:rgb(124, 86, 15,0.5);
     --input-PlaceholderColor-Clicked:rgb(124, 86, 15,0.9);
     --border-bottomColor: rgba(197, 164, 127, 0.8)  ;
