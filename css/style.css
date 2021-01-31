@@ -10,6 +10,8 @@
 @import "friends.css";
 @import "user-component.css";
 @import "badge.css";
+@import "find.css";
+@import "recommended-friends.css";
 body {
     background-color: var(--backgroundColor);
     font-family: var(--font-en);

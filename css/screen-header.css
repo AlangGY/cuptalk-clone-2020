@@ -4,6 +4,8 @@
     align-items: center;
     padding: var(--horizontal-space);
     background-color:rgb(204, 182, 156,0.5);
+    border-bottom:1px solid var(--border-bottomColor);
+    border-top:1px solid var(--border-topColor);
 }
 
 .screen-header__title{
@@ -14,4 +16,6 @@
 
 .screen-header__icons span{
     margin-left: 15px;
+    position: relative;
 }
+

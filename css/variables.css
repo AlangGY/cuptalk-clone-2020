@@ -2,6 +2,8 @@
     --backgroundColor:#feca36;
     --input-PlaceholderColor:rgb(124, 86, 15,0.5);
     --input-PlaceholderColor-Clicked:rgb(124, 86, 15,0.9);
+    --border-bottomColor: rgba(197, 164, 127, 0.8)  ;
+    --border-topColor:rgba(231, 201, 167, 0.8) ;
     --lineColor:rgba(228, 188, 86, 0.8);
     --font-en: 'Alegreya Sans SC','Black Han Sans',sans-serif;
     --font-kr: 'Black Han Sans','Alegreya Sans SC', sans-serif;

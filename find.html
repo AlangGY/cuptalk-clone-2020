@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to CupTalk</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!-- WIFI ICON -->
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <!-- landscape ICON -->
+        <div class="status-bar__column">
+            <span>11%</span>
+            <!-- battery ICON -->
+            <i class="fas fa-battery-half fa-lg"></i>
+            <!-- lightning ICON -->
+            <i class="fas fa-bolt fa-xs "></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">검색</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span>
+                <i class="fas fa-cog fa-lg"></i>
+                <div class="badge badge--small"></div>
+            </span>
+        </div>
+
+    </header>
+
+    <main class="main-screen">
+        <div class="find-icons">
+            <div class="find-icons__icon"><i class="fas fa-qrcode fa-3x"></i>
+                <span>QR Code</span>
+            </div>
+            <div class="find-icons__icon"><i class="far fa-address-book fa-3x"></i>
+                <span>Add by contacts</span>
+            </div>
+            <div class="find-icons__icon"><i class="far fa-id-badge fa-3x"></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="find-icons__icon"><i class="far fa-envelope fa-3x"></i>
+                <span>Invite</span>
+            </div>
+        </div>
+
+        <div class="recommended-friends">
+            <p>Recommended Friends</p>
+            <div class="recommended-friends__list">
+                <span>You have no recommended friends</span>
+            </div>
+        </div>
+    </main>
+
+    <nav class="navigation-bar">
+        <ul class="navigation-bar__ul">
+            <li class="navigation-bar__btn">
+                <a class="navigation-bar__a" href="friends.html">
+                    <i class="far fa-user fa-2x"></i></a>
+            </li>
+            <li class="navigation-bar__btn">
+                <a class="navigation-bar__a" href="chats.html">
+                    <span class="badge">1</span>
+                    <i class="far fa-comment fa-2x"></i></a>
+            </li>
+            <li class="navigation-bar__btn">
+                <a class="navigation-bar__a" href="find.html">
+                    <i class="fas fa-search fa-2x"></i></a>
+            </li>
+            <li class="navigation-bar__btn">
+                <a class="navigation-bar__a" href="more.html">
+                    <span class="badge badge--small"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <script src="https://kit.fontawesome.com/369782a9cb.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

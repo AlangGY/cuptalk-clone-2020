@@ -3,6 +3,7 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    border-top: 1px solid var(--border-topColor);
 }
 
 .navigation-bar__ul{
@@ -17,11 +18,4 @@
     text-decoration: none;
     color: rgb(71, 64, 56,1);
     position: relative;
-}
-
-.navigation-bar__notification{
-    position: absolute;
-    bottom: 20px;
-    right: -8px;
-
 }
