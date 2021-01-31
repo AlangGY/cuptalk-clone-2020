@@ -1,19 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,300;0,400;0,800;0,900;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,300;0,400;0,800;0,900;1,400;1,500;1,700&family=Black+Han+Sans&display=swap');
+
 @import "reset.css";
-@import "status-bar.css";
-@import "welcome-header.css";
 @import "variables.css";
-@import "login-form.css";
-@import "navigation-bar.css";
-@import "screen-header.css";
-@import "friends.css";
-@import "user-component.css";
-@import "badge.css";
-@import "recommended-friends.css";
-@import "open-chat.css";
-@import "icon-row.css";
-@import "more-suggestions.css";
+
+@import "components/status-bar.css";
+@import "components/navigation-bar.css";
+@import "components/alt-screen-header.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/main-screen.css";
+
+@import "screens/welcome-header.css";
+@import "screens/login-form.css";
+@import "screens/friends.css";
+@import "screens/recommended-friends.css";
+@import "screens/open-chat.css";
+@import "screens/more-suggestions.css";
+@import "screens/background-image.css";
+@import "screens/setting.css";
+
 body {
     background-color: var(--backgroundColor);
     font-family: var(--font-en);
@@ -21,17 +29,4 @@ body {
     height: 100vh;
 }
 
-.main-screen{
-    padding: 0 var(--horizontal-space);
-}
 
-.background-Image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.background-Image img{
-    display: flex;
-    justify-content: center;
-}

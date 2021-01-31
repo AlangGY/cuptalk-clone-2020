@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>대화-CupTalk</title>
+    <title>설정-CupTalk</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -29,34 +29,28 @@
         </div>
     </div>
 
-    <header class="screen-header">
-        <h1 class="screen-header__title">대화</h1>
-        <div class="screen-header__icons">
-            <span><i class="fas fa-search fa-lg"></i></span>
-            <span><i class="fas fa-comment-dots fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span> <a class="screen-header__a" href="setting.html">
-                    <i class="fas fa-cog fa-lg"></i></a>
-            </span>
+    <header class="alt-screen-header">
+        <div class="alt-screen-header__column">
+            <span><i class="fas fa-chevron-left fa-lg"></i></span>
         </div>
-
+        <div class="alt-screen-header__column">
+            <h1 class="alt-screen-header__title">설정</h1>
+        </div>
+        <div class="alt-screen-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+        </div>
     </header>
 
     <main class="main-screen">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="css/images/mugmanProfile2.png" class="user-component__profile user-component__profile-sm">
-                <div class="user-component__text">
-                    <h4 class="user-component__title user-component__title--not-bold">Mugman</h4>
-                    <h6 class="user-component__subtitle">야 컵헤드</h6>
-                </div>
-            </div>
-            <div class="user-component__column">
-                <span class="user-component__time">18:40</span>
-                <div class="badge">1</div>
-            </div>
-        </div>
-
+        <ul class="settings-list">
+            <li class="settings__setting">
+                <i class="fas fa-bullhorn"></i><span>Notices</span></li>
+            <li class="settings__setting">
+                <i class="fas fa-flask"></i><span>CupCup Lab</span></li>
+            <li class="settings__setting">
+                <i class="fas fa-info-circle"></i><span>Version</span></li>
+        
+            </ul>
     </main>
 
     <nav class="navigation-bar">
@@ -68,7 +62,7 @@
             <li class="navigation-bar__btn">
                 <a class="navigation-bar__a" href="chats.html">
                     <span class="badge badge--righttop">1</span>
-                    <i class="fas fa-comment fa-2x"></i></a>
+                    <i class="far fa-comment fa-2x"></i></a>
             </li>
             <li class="navigation-bar__btn">
                 <a class="navigation-bar__a" href="find.html">

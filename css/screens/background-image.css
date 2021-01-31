@@ -1,0 +1,10 @@
+.background-Image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.background-Image img{
+    display: flex;
+    justify-content: center;
+}

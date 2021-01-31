@@ -19,3 +19,8 @@
     position: relative;
 }
 
+.screen-header__a{
+    text-decoration: none;
+    color: rgb(71, 64, 56,1);
+    position: relative;
+}

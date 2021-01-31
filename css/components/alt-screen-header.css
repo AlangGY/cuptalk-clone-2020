@@ -1,0 +1,17 @@
+.alt-screen-header{
+    display: flex;
+    justify-content: center;
+    padding: 10px var(--horizontal-space);
+}
+
+.alt-screen-header__title{
+    font-size: 32px;
+}
+
+.alt-screen-header__column:first-child{
+    margin-right: auto;
+}
+
+.alt-screen-header__column:last-child{
+    margin-left:auto;
+}
