@@ -12,6 +12,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/main-screen.css";
+@import "components/reply.css";
 
 @import "screens/welcome-header.css";
 @import "screens/login-form.css";

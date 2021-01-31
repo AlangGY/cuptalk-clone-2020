@@ -10,7 +10,7 @@
 
 <body id="chat-screen">
 
-    <div class="status-bar chat-screen__bar-color">
+    <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
             <!-- WIFI ICON -->
@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <header class="chat-screen__bar-color alt-screen-header">
+    <header class="alt-screen-header">
         <div class="alt-screen-header__column">
             <a href="chats.html">
                 <i class="fas fa-chevron-left fa-lg"></i>
@@ -44,34 +44,42 @@
         </div>
     </header>
 
-    <main class="alt-main-screen">
+    <main class="alt-main-screen main-chat">
         <div class="chat__timestamp">
             Sunday, January 31, 2021
         </div>
+
+        <div class="message-row">
+            <img class="message-row__image"  src="css/images/mugmanProfile2.png">
+            <div class="message-row__content">
+                <span class="message__author">Mugman</span>
+                <div class="message__info">
+                    <span class="message__bubble">Hey bro what you do'in</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row__own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Just play'in around</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <nav class="chat-screen__bar-color navigation-bar">
-        <ul class="navigation-bar__ul">
-            <li class="navigation-bar__btn">
-                <a class="navigation-bar__a" href="friends.html">
-                    <i class="far fa-user fa-2x"></i></a>
-            </li>
-            <li class="navigation-bar__btn">
-                <a class="navigation-bar__a" href="chats.html">
-                    <span class="badge badge--righttop">1</span>
-                    <i class="far fa-comment fa-2x"></i></a>
-            </li>
-            <li class="navigation-bar__btn">
-                <a class="navigation-bar__a" href="find.html">
-                    <i class="fas fa-search fa-2x"></i></a>
-            </li>
-            <li class="navigation-bar__btn">
-                <a class="navigation-bar__a" href="more.html">
-                    <span class="badge badge--righttop badge--small"></span>
-                    <i class="fas fa-ellipsis-h fa-2x"></i></a>
-            </li>
-        </ul>
-    </nav>
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-2x"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a Message">
+            <i class="far fa-smile fa-lg"></i>
+            <button><i class="fas fa-arrow-up"></i></button>
+        </div>
+    </form>
+
     <script src="https://kit.fontawesome.com/369782a9cb.js" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
