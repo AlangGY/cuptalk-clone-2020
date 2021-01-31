@@ -21,6 +21,7 @@
 @import "screens/more-suggestions.css";
 @import "screens/background-image.css";
 @import "screens/setting.css";
+@import "screens/chat.css";
 
 body {
     background-color: var(--backgroundColor);

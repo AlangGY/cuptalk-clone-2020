@@ -1,0 +1,12 @@
+#chat-screen{
+    background-color: var(--chat-backgroundColor);
+    height: 11000vh;
+}
+.chat-screen__bar-color{
+    background-color: var(--chat-headerColor);
+}
+.chat__timestamp{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}

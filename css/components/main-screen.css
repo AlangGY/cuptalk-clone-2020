@@ -2,3 +2,8 @@
     margin-top: 115px;
     padding: 0 var(--horizontal-space);
 }
+
+.alt-main-screen{
+    margin-top: 60px;
+    padding: 0 var(--horizontal-space);
+}
