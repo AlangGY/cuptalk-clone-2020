@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
-    padding: 10px 0;
+    flex-wrap: wrap;
 }
 
 .icon-row__icon{
@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5px 0px;
 
 }
 
