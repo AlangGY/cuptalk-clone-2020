@@ -9,6 +9,7 @@
     box-sizing: border-box;
     background-color: var(--backgroundColor);
     border-bottom: 1px solid var(--border-bottomColor);
+    z-index: 2;
 }
 
 .alt-screen-header__title{

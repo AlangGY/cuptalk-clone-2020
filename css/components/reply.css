@@ -60,12 +60,14 @@
 }
 
 .reply:focus-within {
-    transform: translateY(37px);
-    padding: 5px 0px;
+    transform: translateY(36px);
+    padding: 0px 3px;
 }
 
 .reply:focus-within input{
-    transform: translateY(-37px);
+    transform: translateY(-45px);
+    height: 40px;
+    border-radius: 5px;
 }
 
 
