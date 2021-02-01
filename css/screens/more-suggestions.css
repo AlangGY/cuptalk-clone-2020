@@ -24,3 +24,9 @@
 .more-suggestions__icon-text{
     text-align: center;
 }
+
+/* animation */
+
+.more-suggestions__icon:hover{
+    animation: squash 0.3s ease-in-out;
+}
