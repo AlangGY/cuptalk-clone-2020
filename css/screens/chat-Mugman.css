@@ -1,9 +1,9 @@
 .chat-Mugman__image{
     display: flex;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     bottom: 50px;
-    left: 140px;
+    left: 25%;
 
     z-index: -1;
 
@@ -12,4 +12,5 @@
 .chat-Mugman__image img{
     display: flex;
     justify-content: center;
+    width: 50vw;
 }
