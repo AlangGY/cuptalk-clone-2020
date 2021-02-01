@@ -16,6 +16,7 @@
 @import "components/reply.css";
 @import "components/no-mobile.css";
 @import "components/splash-screens.css";
+@import "components/keyframes.css";
 
 @import "screens/welcome-header.css";
 @import "screens/login-form.css";
@@ -33,7 +34,6 @@ body {
     background-color: var(--backgroundColor);
     font-family: 'Alegreya Sans SC','Jua', sans-serif;
 
-    height: 100vh;
 }
 
 

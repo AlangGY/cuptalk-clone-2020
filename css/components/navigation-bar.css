@@ -21,16 +21,6 @@
     position: relative;
 }
 
-@keyframes appearBtnAnimation{
-    from{
-
-        opacity: 0;
-    }
-    to{
-        transform: none;
-    }
-}
-
 .navigation-bar__btn{
     transform: translateY(80px);
     animation: appearBtnAnimation 1s ease-in-out forwards;
@@ -45,4 +35,8 @@
 }
 .navigation-bar__btn:last-child{
     animation-delay: 1.5s;
+}
+
+.navigation-bar__btn i:hover{
+    animation: squash 0.3s ease-in-out;
 }

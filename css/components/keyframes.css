@@ -1,0 +1,50 @@
+@keyframes appearBtnAnimation{
+    from{
+
+        opacity: 0;
+    }
+    to{
+        transform: none;
+    }
+}
+
+@keyframes bounce{
+    0%{
+        transform: rotateZ(0deg);
+    }
+    25%{
+        transform: rotateZ(-20deg);
+    }
+    50%{
+    }
+    75%{
+        transform: rotateZ(20deg);
+    }
+    100%{
+    }
+}
+
+@keyframes squash{
+    0%{
+
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform:none;
+    }
+}
+
+@keyframes rotate{
+    0%{
+        transform: none;
+    }
+
+    50%{
+        transform: scale(1.2) rotateZ(180deg);
+    }
+    100%{
+        transform: rotateZ(360deg);
+    }
+}

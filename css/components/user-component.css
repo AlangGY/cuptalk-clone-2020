@@ -71,3 +71,12 @@
     margin-bottom: 5px;
 
 }
+
+/* animation */
+.user-component .user-component__column img:hover{
+    animation: squash 0.3s ease-in-out;
+}
+
+.user-component :active{
+    animation: squash 0.3s ease-in-out;
+}

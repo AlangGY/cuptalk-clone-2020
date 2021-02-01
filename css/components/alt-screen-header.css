@@ -37,3 +37,10 @@
 .alt-screen-header__column:last-child i {
     margin-left: 25px;
 }
+
+
+/* animation */
+
+.alt-screen-header__column .fa-search:hover{
+    animation: squash 0.3s ease-in-out;
+}

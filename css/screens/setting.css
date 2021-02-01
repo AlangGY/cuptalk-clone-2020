@@ -15,3 +15,10 @@
     opacity: 0.5;
     font-size: 15px;
 }
+
+/* animation */
+
+.settings__setting:hover{
+    will-change: transform;
+    animation: squash 0.3s ease-in-out;
+}

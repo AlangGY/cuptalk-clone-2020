@@ -20,3 +20,8 @@
 }
 
 
+/* animation */
+
+.icon-row__icon i:hover{
+    animation: squash 0.3s ease-in-out;;
+}
