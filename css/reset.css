@@ -55,6 +55,12 @@ input {
 	-moz-appearance: none;
 	appearance: none;
 	}
+
+audio{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
 a{
 	text-decoration: none;
 	color: black;
