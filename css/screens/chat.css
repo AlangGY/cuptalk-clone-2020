@@ -15,25 +15,12 @@
     background-color: var(--chat-headerColor);
 }
 
-@keyframes fadeIn {
-    from{
-        transform: translateY(30px);
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-}
-
 .main-chat{
     display: flex;
     margin-top: 100px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    opacity: 0;
-    animation: fadeIn 0.3s linear forwards ;
-    animation-delay: 0.5s;
     z-index: 1;
 }
 .chat__timestamp{
@@ -100,4 +87,54 @@
 
 .message-row__own .message__info{
     flex-direction: row-reverse;
+}
+
+.main-chat,
+.message-row:nth-child(2),
+.message-row:nth-child(3){
+    opacity: 0;
+}
+
+.main-chat{
+    animation: fadeIn 0.3s linear forwards ;
+    animation-delay: 0.5s;
+}
+
+.message-row:nth-child(2){
+    animation: fromLeft 0.3s linear forwards ;
+    animation-delay: 1s;
+}
+.message-row:nth-child(3){
+    will-change: transform;
+    animation: fromRight 0.3s linear forwards ;
+    animation-delay: 1.5s;
+}
+
+@keyframes fadeIn {
+    from{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fromLeft{
+    from{
+        transform: translateX(-80px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fromRight{
+    from{
+        transform: translateX(80px);
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
 }
