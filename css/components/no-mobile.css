@@ -3,8 +3,8 @@
     z-index: 99;
     height: 100%;
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: var(--backgroundColor);
+    color: black;
     display: flex;
     justify-content:center;
     align-items: center;

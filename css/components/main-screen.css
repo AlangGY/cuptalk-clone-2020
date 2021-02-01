@@ -6,4 +6,5 @@
 .alt-main-screen{
     margin-top: 80px;
     padding: 0 var(--horizontal-space);
+    z-index: 2;
 }

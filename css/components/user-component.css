@@ -7,6 +7,14 @@
     font-weight: 800;
     padding: 15px 0px;
 }
+.user-component__me{
+
+}
+
+.user-component:not(.user-component__me){
+    border-bottom: 1px solid var(--border-topColor);
+    border-radius: 10px;
+}
 
 .user-component__column:first-child{
     display: flex;

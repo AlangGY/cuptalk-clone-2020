@@ -15,9 +15,8 @@
 }
 
 .screen-header__title{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 32px;
-    font-family: var(--font-kr);
 }
 
 .screen-header__icons span{

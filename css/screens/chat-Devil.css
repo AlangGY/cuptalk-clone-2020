@@ -1,0 +1,16 @@
+.chat-Devil__image{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    left: 30px;
+    bottom: 35px;
+    z-index: -1;
+
+}
+
+.chat-Devil__image img{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    width: 100vw;
+}

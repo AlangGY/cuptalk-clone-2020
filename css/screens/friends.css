@@ -34,16 +34,3 @@
         visibility: hidden;
     }
 }
-#splash-screen{
-    background: #feca36;
-    position: absolute;
-    height: 100vh;
-    width: 100vw;
-    top: 0;
-    z-index: 3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: hideSplashScreen 2s ease-in-out forwards;
-    animation-delay: 4.5s;
-}

@@ -26,6 +26,8 @@
 @import "screens/background-image.css";
 @import "screens/setting.css";
 @import "screens/chat.css";
+@import "screens/chat-Devil.css";
+@import "screens/chat-Mugman.css";
 
 body {
     background-color: var(--backgroundColor);

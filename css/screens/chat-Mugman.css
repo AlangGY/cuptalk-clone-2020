@@ -1,0 +1,16 @@
+.chat-Mugman__image{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 78px;
+
+    z-index: -1;
+
+}
+
+.chat-Mugman__image img{
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    width: 100vw;
+}
