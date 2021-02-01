@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=0">
+    <title>Devil-CupTalk</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="chat-screen">
+
+    
+    <audio autoplay loop src="css/sounds/chat-BGM.mp3"></audio>
+
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!-- WIFI ICON -->
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <!-- landscape ICON -->
+        <div class="status-bar__column">
+            <span>11%</span>
+            <!-- battery ICON -->
+            <i class="fas fa-battery-half fa-lg"></i>
+            <!-- lightning ICON -->
+            <i class="fas fa-bolt fa-xs "></i>
+        </div>
+    </div>
+
+    <header class="alt-screen-header">
+        <div class="alt-screen-header__column">
+            <a href="chats.html">
+                <i class="fas fa-chevron-left fa-lg"></i>
+            </a>
+        </div>
+        <div class="alt-screen-header__column">
+            <h1 class="alt-screen-header__title">Devil</h1>
+        </div>
+        <div class="alt-screen-header__column">
+            <i class="fas fa-search fa-lg fa-2x"></i>
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+    </header>
+
+    <main class="alt-main-screen main-chat">
+        <div class="chat__timestamp">
+            Sunday, January 31, 2021
+        </div>
+
+        <div class="message-row">
+            <img class="message-row__image"  src="css/images/devilProfile1.gif">
+            <div class="message-row__content">
+                <span class="message__author">Devil</span>
+                <div class="message__info">
+                    <span class="message__bubble">빚 갚을 시간!!</span>
+                    <span class="message__time">21:12</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row__own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">하루만 더...!!</span>
+                    <span class="message__time">21:32</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square fa-2x"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a Message">
+            <i class="far fa-smile fa-lg"></i>
+            <button><i class="fas fa-arrow-up"></i></button>
+        </div>
+    </form>
+
+
+    <img src="css/images/devil.gif" alt="">
+    <div id="no-mobile">
+        <span>
+            Your Screen is too big ㅠㅠ
+        </span></div>
+
+    <script src="https://kit.fontawesome.com/369782a9cb.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
