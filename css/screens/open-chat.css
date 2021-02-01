@@ -98,7 +98,7 @@
 }
 
 
-.open-post__heartCount:hover i{
+.open-post__photo:hover .open-post__heartCount i{
     will-change: transform;
     animation: heartBeat 1s linear infinite;
 }
