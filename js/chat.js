@@ -31,15 +31,16 @@ function sendMessage(text,time){
 
     span_message__bubble.innerText = text;
     span_message__time.innerText = time;
-
+    div_messageRow.classList.add("ani-sendMessage");
 }
 
 function getMessage(event){
     event.preventDefault();
-    var replyText = replyInput.value;
-    sendMessage(replyText,sendTime());
-    replyInput.value = "";
-
+    if(replyInput.value){
+        var replyText = replyInput.value;
+        sendMessage(replyText,sendTime());
+        replyInput.value = "";
+    }
 }
 
 function init(){

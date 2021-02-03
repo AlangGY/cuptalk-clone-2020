@@ -48,3 +48,27 @@
         transform: rotateZ(360deg);
     }
 }
+
+@keyframes showBox {
+    0%{
+
+    }
+    100%{
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.6);
+
+    }
+}
+
+@keyframes hideBox {
+    0%{
+
+    }
+    100%{
+        width: 0px;
+        height: 0px;
+        background-color: rgba(0,0,0,0);
+
+    }
+}

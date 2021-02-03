@@ -17,6 +17,8 @@
 @import "components/no-mobile.css";
 @import "components/splash-screens.css";
 @import "components/keyframes.css";
+@import "components/animation-class.css";
+@import "components/profileBox.css";
 
 @import "screens/welcome-header.css";
 @import "screens/login-form.css";
@@ -85,3 +87,5 @@ audio::-webkit-media-controls-return-to-realtime-button{}
 
 audio::-webkit-media-controls-toggle-closed-captions-button{
 }
+
+

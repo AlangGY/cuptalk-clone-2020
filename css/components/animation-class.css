@@ -1,0 +1,11 @@
+.ani-clicked {
+    animation: squash 0.5s ease-in-out;
+}
+
+.ani-sendMessage {
+    animation: fromRight 0.3s linear forwards;
+}
+
+.ani-profileBox {
+    animation: showBox 0.5s ease-in-out forwards;
+}

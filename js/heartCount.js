@@ -1,10 +1,26 @@
 const heartCountContainer = document.querySelectorAll(".js-heartCount");
+var clickTimer ;
 
 
+function clickedAnim(target){
+    if(!target.classList.contains("ani-clicked")){
+        target.classList.add("ani-clicked");
+        target.addEventListener("animationend", () =>{
+            target.classList.remove("ani-clicked");
+        })
+
+        // using with Timer 
+        //     clickTimer = setInterval(()=>{target.classList.toggle("clicked");
+        // clearInterval(clickTimer);},500);
+
+    }
+
+}
 function clicked(event){
     const span = event.target.parentNode.querySelector("span");
+    clickedAnim(span);
     span.innerText ++;
-    console.dir(span.innerText);
+
 }
 
 function clickHeart(){
