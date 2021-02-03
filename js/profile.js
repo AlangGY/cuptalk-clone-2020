@@ -5,19 +5,19 @@ var profileObj = {
         backgroundImage: 'css/images/cupheadMugman.jpg',
         profileImage: 'css/images/cupheadProfile2.png',
         name: 'Cuphead',
-        comment: 'fuck!'
+        comment: 'Hello!'
     },
     mugman: {
         backgroundImage: 'css/images/mugman.jpg',
         profileImage: 'css/images/mugmanProfile2.png',
         name: 'Mugman',
-        comment: 'shit!'
+        comment: 'I hate Cuphead!!'
     },
     devil: {
         backgroundImage: 'css/images/devil.gif',
         profileImage: 'css/images/devilProfile1.gif',
         name: 'Devil',
-        comment: 'GoToHell!'
+        comment: '빚갚을시간!!!!!!!!!'
     }
 };
 
