@@ -9,6 +9,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    z-index: 99;
     animation: showBox 0.3s ease-in-out forwards;
 
 }
@@ -24,6 +25,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    z-index: 99;
     animation: hideBox 0.3s ease-in-out forwards;
 }
 
