@@ -1,4 +1,4 @@
-.whiteBox{
+.profileBox{
     width: 0px;
     height: 0px;
     background-color: rgba(0,0,0,0);
@@ -14,7 +14,7 @@
 
 }
 
-.whiteBox__hide{
+.profileBox__hide{
     width: 100vw;
     height: 100vh;
     background-color: rgba(0,0,0,0.6);
@@ -28,11 +28,81 @@
     z-index: 99;
     animation: hideBox 0.3s ease-in-out forwards;
 }
+.profileBox__backgroundImage{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
 
-.boxText{
+.profileBox__backgroundImage img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    border-radius: 30px;
+}
+
+.profileBox__profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20%;
+
+}
+
+.profileBox__profile-name{
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.profileBox__profile-comment{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.904);
+
+}
+
+.profileBox__profile-divider{
+    background-color: black;
+    height: 1px;
+    width: 90vw;
+}
+
+.profileBox__comment{
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
+}
+
+.profileBox__exitButton{
+    color: rgb(163, 161, 161);
+    font-size: 20px;
+    font-weight: 800px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid rgb(163, 161, 161) ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    outline: none;
+}
+
+.box__exitButton:focus{
+    animation: squash 0.5s ease-in-out;
 }
