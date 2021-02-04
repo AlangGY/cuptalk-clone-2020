@@ -7,7 +7,6 @@
         transform: none;
     }
 }
-
 @keyframes bounce{
     0%{
         transform: rotateZ(0deg);
@@ -23,7 +22,6 @@
     100%{
     }
 }
-
 @keyframes squash{
     0%{
 
@@ -35,7 +33,6 @@
         transform:none;
     }
 }
-
 @keyframes rotate{
     0%{
         transform: none;
@@ -48,7 +45,6 @@
         transform: rotateZ(360deg);
     }
 }
-
 @keyframes showBox {
     0%{
 
@@ -60,7 +56,6 @@
 
     }
 }
-
 @keyframes hideBox {
     0%{
 
@@ -70,5 +65,41 @@
         height: 0px;
         background-color: rgba(0,0,0,0);
 
+    }
+}
+@keyframes fadeIn {
+    from{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes fromLeft{
+    from{
+        transform: translateX(-80px);
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes fromRight{
+    from{
+        transform: translateX(80px);
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes load {
+    from{
+        
+    }
+    to{
+        opacity: 1;
     }
 }

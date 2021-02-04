@@ -16,11 +16,7 @@
 }
 
 .main-chat{
-    display: flex;
     margin-top: 100px;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
 }
 .chat__timestamp{
     display: flex;
@@ -111,34 +107,4 @@
 .message-row:nth-child(4){
     animation: fromLeft 0.3s linear forwards ;
     animation-delay: 2s;
-}
-
-
-@keyframes fadeIn {
-    from{
-        transform: translateY(30px);
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-}
-
-@keyframes fromLeft{
-    from{
-        transform: translateX(-80px);
-    }
-    to{
-        opacity: 1;
-    }
-}
-
-@keyframes fromRight{
-    from{
-        transform: translateX(80px);
-    }
-    to{
-        transform: none;
-        opacity: 1;
-    }
 }
