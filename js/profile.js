@@ -1,10 +1,11 @@
 const profileImage = document.querySelectorAll(".js-profileImage");
+
 var chatLink;
 var callLink;
 var storyLink;
 var profileObj = {
     cuphead: {
-        backgroundImage: 'css/images/cupheadMugman.jpg',
+        backgroundImage: 'css/images/cupheadBackground.png',
         profileImage: 'css/images/cupheadProfile2.png',
         name: 'Cuphead',
         comment: 'Hello!',
@@ -13,10 +14,10 @@ var profileObj = {
         storyLink: ''
     },
     mugman: {
-        backgroundImage: 'css/images/mugman.jpg',
-        profileImage: 'css/images/mugmanProfile2.png',
+        backgroundImage: 'css/images/mugmanBackground.gif',
+        profileImage: 'css/images/mugmanProfile3.gif',
         name: 'Mugman',
-        comment: 'I hate Cuphead!!',
+        comment: 'Where is CupHead!!',
         chatLink: './chat-Mugman.html',
         callNumber: '',
         storyLink: ''

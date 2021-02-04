@@ -2,13 +2,8 @@ const replyForm = document.querySelector(".js-reply");
 const replyButton = replyForm.querySelector("button");
 const replyInput = replyForm.querySelector("input");
 
-function sendTime(){
-    const sendDate = new Date;
-    const sendHours = sendDate.getHours();
-    const sendMinutes = sendDate.getMinutes();
-    const sendTime = `${sendHours <10 ?`0${sendHours}` : sendHours }:${sendMinutes <10 ?`0${sendMinutes}` :sendMinutes}`;
-    return sendTime ;
-}
+import {getTime} from './clock.js';
+
 
 function sendMessage(text,time){
     const main_chat = document.querySelector(".js-main-chat");
@@ -38,7 +33,7 @@ function getMessage(event){
     event.preventDefault();
     if(replyInput.value){
         var replyText = replyInput.value;
-        sendMessage(replyText,sendTime());
+        sendMessage(replyText,getTime());
         replyInput.value = "";
     }
 }
